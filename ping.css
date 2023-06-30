@@ -1,0 +1,73 @@
+body, html {
+    /* margin-top: 10px; */
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#paddleA,
+#paddleB {
+    position: absolute;
+    width: 15px;
+    height: 90px;
+    /* background-color: #333333; */
+    background-image: linear-gradient(to right top, #d19c6b, #dd9572, #e78f7d, #ed898d, #ee869f, #eb80ab, #e57db8, #da7bc7, #ca75d3, #b372e1, #9372ee, #5f74fb);
+}
+
+#paddleA {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#paddleB {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(to right top, #d16ba5, #3c2237, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#start-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding:10px;
+    border:2px solid blue;
+    background-image: linear-gradient(to right top, #f41c4b, #d7005b, #b40066, #8c006b, #600069, #540e72, #43197b, #2a2183, #3935a0, #4649bd, #535edc, #5f74fb);
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
