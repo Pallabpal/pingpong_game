@@ -1,12 +1,5 @@
 # 𝐏𝐢𝐧𝐠 𝐏𝐨𝐧𝐠 𝐆𝐚𝐦𝐞 🔭
-
-
-
- ![Screenshot (760)](https://github.com/Pallabpal/pingpong_game/assets/122145541/da707cdc-ed7e-443f-a274-5f256045d7ca)
-
-<br/>
-
-
+![pj](https://github.com/Pallabpal/pingpong_game/assets/122145541/ccaf9d6c-a659-4156-b97e-736ab388d2ee)
 ## ⭐ Introduction
 
 This is a Ping Pong Game App built using HTML, CSS, Javascript. Player is given 2 paddles and a ball, where he/she competes with oneself & the score is displayed accordingly. This App is most suitable & responsive for the Desktop Version.
